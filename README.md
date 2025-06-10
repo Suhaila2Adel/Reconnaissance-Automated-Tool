@@ -13,7 +13,6 @@ A modular Python-based reconnaissance tool developed as part of the **ITSOLERA C
 | `--ports`      | Scans common ports using Nmap |
 | `--dirs`       | Brute-forces common directories using wordlist |
 | `--vulns`      | Detects exposed `.env` or `.git/config` files |
-| `--verbose`    | Enables debug-level logging |
 
 
 ## ⚙️ Installation
