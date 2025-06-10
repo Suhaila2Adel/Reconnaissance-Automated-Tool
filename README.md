@@ -2,8 +2,6 @@
 This is task 1 of IT Solera internship 
 A modular Python-based reconnaissance tool developed as part of the **ITSOLERA Cyber Department Summer Internship 2025**. The tool automates passive and active information gathering to support early-stage penetration testing and vulnerability assessments.
 
----
-
 ## 📌 Features
 
 | Module         | Description |
@@ -17,11 +15,11 @@ A modular Python-based reconnaissance tool developed as part of the **ITSOLERA C
 | `--vulns`      | Detects exposed `.env` or `.git/config` files |
 | `--verbose`    | Enables debug-level logging |
 
----
 
 ## ⚙️ Installation
-
 > Requires **Python 3.10+** and **Nmap** installed and added to your system PATH.
+> open **main.py**, **providers** and **config** files in pycharm
 
+Use this command in the pycharm terminal
 ```bash
-# Clone the repo or extract files
+# python main.py example.com --whois --dns --subdomains --ports --dirs --vulns 
