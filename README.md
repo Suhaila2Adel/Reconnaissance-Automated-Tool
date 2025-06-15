@@ -21,4 +21,4 @@ A modular Python-based reconnaissance tool developed as part of the **ITSOLERA C
 
 Use this command in the pycharm terminal
 ```bash
-# python main.py example.com --whois --dns --subdomains --ports --dirs --vulns 
+# python main.py example.com --whois --dns --subdomains --ports --dirs
